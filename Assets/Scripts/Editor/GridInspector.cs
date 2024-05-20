@@ -1,3 +1,4 @@
+using Codice.Client.BaseCommands.Import;
 using UnityEditor;
 using UnityEngine;
 
@@ -17,6 +18,18 @@ namespace Editor
             {
                 Grid grid = target as Grid;
                 EditorUtility.SetDirty(grid);
+
+                for (int x = 0; x < grid.walkableGrid.Length; x++)
+                {
+                    for (int y = 0; y < grid.walkableGrid.Length; y++)
+                    {
+                        if (grid.walkableGrid != null)
+                        {
+                            Destroy(grid);
+                        }
+                    }
+                }
+            
             }
             EditorGUI.EndDisabledGroup();
             GUI.enabled = true;
