@@ -1,20 +1,18 @@
 using UnityEditor;
+using UnityEngine;
 
 namespace Editor
 {
     [CustomEditor(typeof(Grid))]
     public class GridInspector : UnityEditor.Editor
     {
-        // Start is called before the first frame update
-        void Start()
+        public override void OnInspectorGUI()
         {
-        
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-        
+            base.OnInspectorGUI();
+            if (GUILayout.Button("Generate Grid"))
+            {
+                Debug.Log("Generate Grid Here");
+            }
         }
     }
 }
