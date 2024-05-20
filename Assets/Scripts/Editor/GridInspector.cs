@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+using UnityEditor;
 
-public class GridInspector : MonoBehaviour
+namespace Editor
 {
-    // Start is called before the first frame update
-    void Start()
+    [CustomEditor(typeof(Grid))]
+    public class GridInspector : UnityEditor.Editor
     {
+        // Start is called before the first frame update
+        void Start()
+        {
         
-    }
+        }
 
-    // Update is called once per frame
-    void Update()
-    {
+        // Update is called once per frame
+        void Update()
+        {
         
+        }
     }
 }
