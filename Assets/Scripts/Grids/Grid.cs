@@ -7,7 +7,8 @@ namespace Grids
     {
         public GridCell[] walkableGrid = new GridCell[100];
         public int width = 10;
-    
+
+        public int Height => walkableGrid.Length / width;
         public bool IsWalkable(int x, int y)
         {
             return walkableGrid[y*width+x].walkable;
@@ -15,9 +16,19 @@ namespace Grids
 
         public GridCell GetCellForPosition(Vector3 position)
         {
-            // remember: floats are inaccurate, so you can't do position.x == 4
-            // how can you calculate the right x and y index for the Vector3 position?
-            // then, return the cell at that index of the array
+            int i = 0;
+            for (int y = 0; y < Height; y++)
+            {
+                for (int x = 0; x < Height; x++)
+                {
+                    if (position.x > x - 0.5f && position.x <= x + 0.5f && position.y > y - 0.5f && position.y <= + 0.5f)
+                    {
+                        return walkableGrid[i];
+                    }
+
+                    i++;
+                }
+            }
             throw new NotImplementedException();
         }
     }
