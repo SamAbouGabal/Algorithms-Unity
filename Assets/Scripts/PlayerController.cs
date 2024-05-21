@@ -43,9 +43,17 @@ public class PlayerController : MonoBehaviour
                 if (visited.Contains(neighbour)) continue;
                 {
                     path.Push(neighbour);
+                    if (neighbour == end)
+                    {
+                        return path;
+                    }
                     foundNextNode = true;
                     break;
                 }
+            }
+            if (!foundNextNode)
+            {
+                path.Pop();
             }
         }
         
