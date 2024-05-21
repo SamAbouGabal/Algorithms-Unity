@@ -1,12 +1,14 @@
+using System;
 using Grids;
 using NUnit.Framework;
 using UnityEditor;
 using UnityEngine;
 using Grid = Grids.Grid;
+using Object = UnityEngine.Object;
 
 namespace Tests
 {
-    public class GridTest
+    public class GridTests
     {
         private Grid grid;
 
@@ -34,18 +36,34 @@ namespace Tests
         }
 
         [TearDown]
-
         public void TearDown()
         {
-            GameObject.DestroyImmediate(grid);
+            Object.DestroyImmediate(grid);
             grid = null;
         }
-
+        
         [Test]
-        public void GetCellForPosition()
+        public void GetCellForPositionReturnsCorrectCell()
         {
             var cell = grid.GetCellForPosition(new Vector3(0, 0, 0));
             Assert.That(cell, Is.EqualTo(grid.walkableGrid[0]));
+            
+            cell = grid.GetCellForPosition(new Vector3(.4f, .4f, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[0]));
+            
+            cell = grid.GetCellForPosition(new Vector3(-.4f, -.4f, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[0]));
+            
+            cell = grid.GetCellForPosition(new Vector3(.5f, .5f, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[4]));
+            
+            cell = grid.GetCellForPosition(new Vector3(1, 2, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[7]));
+            
+            cell = grid.GetCellForPosition(new Vector3(1.4f, .4f, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[1]));
+            
+            Assert.Throws<IndexOutOfRangeException>(() => grid.GetCellForPosition(new Vector3(-1, 0, 0)));
         }
     }
 }
