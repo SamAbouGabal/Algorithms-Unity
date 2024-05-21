@@ -55,6 +55,8 @@ public class PlayerController : MonoBehaviour
             {
                 path.Pop();
             }
+
+            return null;
         }
         
         
