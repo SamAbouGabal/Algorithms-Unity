@@ -42,9 +42,10 @@ namespace Tests
         }
 
         [Test]
-        public void GridTestSimplePasses()
+        public void GetCellForPosition()
         {
-            
+            var cell = grid.GetCellForPosition(new Vector3(0, 0, 0));
+            Assert.That(cell, Is.EqualTo(grid.walkableGrid[0]));
         }
     }
 }
