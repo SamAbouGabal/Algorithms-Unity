@@ -38,7 +38,15 @@ public class PlayerController : MonoBehaviour
         while (path.Count<0)
         {
             bool foundNextNode = false;
-            
+            foreach (var neighbour in grid.GetWalkableNeighborsForCell(path.Peek()))
+            {
+                if (visited.Contains(neighbour)) continue;
+                {
+                    path.Push(neighbour);
+                    foundNextNode = true;
+                    break;
+                }
+            }
         }
         
         
