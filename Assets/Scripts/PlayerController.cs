@@ -37,9 +37,9 @@ public class PlayerController : MonoBehaviour
     {
         foreach (var cell in path)
         {
-            while (Vector3.Distance(transform.position, cell.transform.position) > 0.001f)
+            while (Vector2.Distance(transform.position, cell.transform.position) > 0.001f)
             {
-                transform.position = Vector3.MoveTowards(transform.position, cell.transform.position, Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, cell.transform.position, Time.deltaTime);
                 yield return null;
             }
         }
