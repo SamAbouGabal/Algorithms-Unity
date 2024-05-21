@@ -24,7 +24,6 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     static IEnumerable<GridCell> FindPath(Grid grid, GridCell start, GridCell end)
     {
         // track visited cells
