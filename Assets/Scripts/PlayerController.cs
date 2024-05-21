@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Grids;
 using UnityEngine;
 using Grid = Grids.Grid;
@@ -23,8 +24,24 @@ public class PlayerController : MonoBehaviour
             GridCell start = grid.GetCellForPosition(transform.position);
             GridCell end = grid.GetCellForPosition(goal.transform.position);
             var path = FindPath(grid, start, end);
-            // start coroutine
-            //     traverse the path
+            foreach (var node in path)
+            {
+                node.spriteRenderer.color = Color.green;
+            }
+
+            StartCoroutine(Co_WalkPath(path));
+        }
+    }
+
+    IEnumerator Co_WalkPath(IEnumerable<GridCell> path)
+    {
+        foreach (var cell in path)
+        {
+            while (Vector3.Distance(transform.position, cell.transform.position) > 0.001f)
+            {
+                transform.position = Vector3.MoveTowards(transform.position, cell.transform.position, Time.deltaTime);
+                yield return null;
+            }
         }
     }
 
@@ -44,9 +61,10 @@ public class PlayerController : MonoBehaviour
                 {
                     path.Push(neighbour);
                     visited.Add(neighbour);
+                    neighbour.spriteRenderer.color = Color.blue;
                     if (neighbour == end)
                     {
-                        return path;
+                        return path.Reverse();
                     }
                     foundNextNode = true;
                     break;
@@ -57,10 +75,8 @@ public class PlayerController : MonoBehaviour
                 path.Pop();
             }
 
-            return null;
+            
         }
-        
-        
-        throw new NotImplementedException();
+        return null;
     }
 }
