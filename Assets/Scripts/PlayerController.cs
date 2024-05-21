@@ -43,6 +43,7 @@ public class PlayerController : MonoBehaviour
                 if (visited.Contains(neighbour)) continue;
                 {
                     path.Push(neighbour);
+                    visited.Add(neighbour);
                     if (neighbour == end)
                     {
                         return path;
