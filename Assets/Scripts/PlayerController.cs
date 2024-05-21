@@ -30,14 +30,18 @@ public class PlayerController : MonoBehaviour
 
     static IEnumerable<GridCell> FindPath(Grid grid, GridCell start, GridCell end)
     {
-        // track visited cells
-        // track cells that need to be visited
-        // track the goal
-        // decide what cells to visit next
+        Stack<GridCell> path = new Stack<GridCell>();
+        HashSet<GridCell> visited = new HashSet<GridCell>();
+        path.Push(start);
+        visited.Add(start);
+
+        while (path.Count<0)
+        {
+            bool foundNextNode = false;
+            
+        }
         
-        // if current cell == goal
-        // reconstruct path
-        // return path
+        
         throw new NotImplementedException();
     }
 }
