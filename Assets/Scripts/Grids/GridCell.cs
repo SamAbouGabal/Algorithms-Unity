@@ -1,19 +1,22 @@
 using UnityEngine;
 
-[RequireComponent(typeof(SpriteRenderer))]
-
-public class GridCell : MonoBehaviour
+namespace Grids
 {
-    public bool walkable;
-    public SpriteRenderer spriteRenderer;
+    [RequireComponent(typeof(SpriteRenderer))]
 
-    private void OnValidate()
+    public class GridCell : MonoBehaviour
     {
-        spriteRenderer.color = walkable ? Color.white : Color.black;
-    }
+        public bool walkable;
+        public SpriteRenderer spriteRenderer;
 
-    private void Start()
-    {
-        OnValidate();
+        private void OnValidate()
+        {
+            spriteRenderer.color = walkable ? Color.white : Color.black;
+        }
+
+        private void Start()
+        {
+            OnValidate();
+        }
     }
 }
