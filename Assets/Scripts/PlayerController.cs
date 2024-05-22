@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
             Grid grid = FindObjectOfType<Grid>();
             GridCell start = grid.GetCellForPosition(transform.position);
             GridCell end = grid.GetCellForPosition(goal.transform.position);
-            var path = FindPath(grid, start, end);
+            var path = FindPathDepthFirst(grid, start, end);
             foreach (var node in path)
             {
                 node.spriteRenderer.color = Color.green;
@@ -46,8 +46,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    static IEnumerable<GridCell> FindPath(Grid grid, GridCell start, GridCell end)
+    // Find Depth First Function
+    static IEnumerable<GridCell> FindPathDepthFirst(Grid grid, GridCell start, GridCell end)
     {
         Stack<GridCell> path = new Stack<GridCell>();
         HashSet<GridCell> visited = new HashSet<GridCell>();
@@ -63,7 +63,7 @@ public class PlayerController : MonoBehaviour
                 path.Push(neighbor);
                 visited.Add(neighbor);
                 neighbor.spriteRenderer.color = Color.cyan;
-                if (neighbor == end) return path.Reverse(); // <<<<<<<<<<
+                if (neighbor == end) return path.Reverse();
                 foundNextNode = true;
                 break;
             }
@@ -74,4 +74,46 @@ public class PlayerController : MonoBehaviour
 
         return null;
     }
+    
+    
+    //Find breadth first function
+    static IEnumerable<GridCell> FindPathBreadthFirst(Grid grid, GridCell start, GridCell end)
+    {
+        Queue<GridCell> todo = new Queue<GridCell>();
+        HashSet<GridCell> visited = new HashSet<GridCell>();
+        Dictionary<GridCell, GridCell> previous = new();
+        todo.Enqueue(start);
+        visited.Add(start);
+
+        while (todo.Count > 0)
+        {
+            var current = todo.Dequeue();
+            foreach (var neighbor in grid.GetWalkableNeighborsForCell(current))
+            {
+                if (visited.Contains(neighbor)) continue;
+                todo.Enqueue(neighbor);
+                previous[neighbor] = current;
+                visited.Add(neighbor);
+                neighbor.spriteRenderer.color = Color.cyan;
+                if (neighbor == end) return BuildPath(neighbor, previous);
+                
+                break;
+            }
+        }
+
+        return null;
+    }
+
+    private static IEnumerable<GridCell> BuildPath(GridCell neighbor, Dictionary<GridCell, GridCell> previous)
+    {
+        while (true)
+        {
+            yield return neighbor;
+            if (!previous.TryGetValue(neighbor, out neighbor))
+            {
+                yield break;
+            }
+        }
+    }
 }
+
