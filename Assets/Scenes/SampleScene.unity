@@ -171,9 +171,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -244,9 +260,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -317,9 +349,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -479,9 +527,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -641,9 +705,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -714,9 +794,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -789,15 +885,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
@@ -805,7 +901,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: walkable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -876,9 +972,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1127,9 +1239,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1200,9 +1328,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1273,9 +1417,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1791,9 +1951,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1864,9 +2040,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1937,9 +2129,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2191,9 +2399,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2264,9 +2488,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2515,9 +2755,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2677,9 +2933,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2750,9 +3022,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2823,9 +3111,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2985,9 +3289,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3325,9 +3645,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3576,9 +3912,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3747,9 +4099,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3820,9 +4188,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3982,9 +4366,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4139,9 +4539,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4636,9 +5052,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4709,9 +5141,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4871,9 +5319,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4944,9 +5408,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5106,9 +5586,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5268,9 +5764,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5430,9 +5942,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5503,9 +6031,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5576,9 +6120,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5649,9 +6209,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5811,9 +6387,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5884,9 +6476,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6046,9 +6654,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6119,9 +6743,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6192,9 +6832,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6354,9 +7010,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6605,9 +7277,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6678,9 +7366,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6840,9 +7544,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6913,9 +7633,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6986,9 +7722,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7061,15 +7813,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Color.r
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
@@ -7077,7 +7829,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: walkable
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7237,9 +7989,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7577,9 +8345,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7650,9 +8434,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7780,9 +8580,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7942,9 +8758,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8015,9 +8847,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8088,9 +8936,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8250,9 +9114,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8323,9 +9203,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8396,9 +9292,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8469,9 +9381,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8542,9 +9470,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8615,9 +9559,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3039216531872725652, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4081143738033023710, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
       propertyPath: m_Name
       value: GridCell
+      objectReference: {fileID: 0}
+    - target: {fileID: 6944760931470766505, guid: 12c061a8e4436234d8bc09ba2934ee17, type: 3}
+      propertyPath: walkable
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
