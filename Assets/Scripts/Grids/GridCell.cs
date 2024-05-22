@@ -27,11 +27,16 @@ namespace Grids
                 _ => throw new ArgumentOutOfRangeException()
             };
 
-
         private void OnValidate()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
-            spriteRenderer.color = Walkable ? Color.white : Color.black;
+            spriteRenderer.color = cellType switch
+            {
+                CellType.Ground => Color.white,
+                CellType.Wall => Color.black,
+                CellType.Water => Color.blue,
+                _ => throw new ArgumentOutOfRangeException(),
+            };
         }
         
         public override string ToString()
