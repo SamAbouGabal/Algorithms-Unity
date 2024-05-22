@@ -22,7 +22,7 @@ public class PlayerController : MonoBehaviour
             Grid grid = FindObjectOfType<Grid>();
             GridCell start = grid.GetCellForPosition(transform.position);
             GridCell end = grid.GetCellForPosition(goal.transform.position);
-            var path = FindPathDepthFirst(grid, start, end);
+            var path = FindPathBreadthFirst(grid, start, end);
             foreach (var node in path)
             {
                 node.spriteRenderer.color = Color.green;
@@ -95,16 +95,14 @@ public class PlayerController : MonoBehaviour
                 previous[neighbor] = current;
                 visited.Add(neighbor);
                 neighbor.spriteRenderer.color = Color.cyan;
-                if (neighbor == end) return BuildPath(neighbor, previous);
-                
-                break;
+                if (neighbor == end) return TracePath(neighbor, previous).Reverse();
             }
         }
 
         return null;
     }
 
-    private static IEnumerable<GridCell> BuildPath(GridCell neighbor, Dictionary<GridCell, GridCell> previous)
+    private static IEnumerable<GridCell> TracePath(GridCell neighbor, Dictionary<GridCell, GridCell> previous)
     {
         while (true)
         {
