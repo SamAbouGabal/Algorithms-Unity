@@ -6,13 +6,22 @@ namespace Grids
 
     public class GridCell : MonoBehaviour
     {
-        public bool walkable;
         public SpriteRenderer spriteRenderer;
+        [SerializeField] private CellType cellType;
+        public enum CellType
+        {
+            Ground,
+            Wall,
+            Water,
+        }
+
+        public bool Walkable => cellType != CellType.Wall;
+
 
         private void OnValidate()
         {
             spriteRenderer = GetComponent<SpriteRenderer>();
-            spriteRenderer.color = walkable ? Color.white : Color.black;
+            spriteRenderer.color = Walkable ? Color.white : Color.black;
         }
         
         public override string ToString()
