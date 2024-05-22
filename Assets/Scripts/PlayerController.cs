@@ -108,8 +108,10 @@ public class PlayerController : MonoBehaviour
     {
         PriorityQueue<GridCell> todo = new();
         todo.Enqueue(start, 0);
-        Dictionary<GridCell, int> costs = new();
-        costs[start] = 0;
+        Dictionary<GridCell, int> costs = new()
+        {
+            [start] = 0
+        };
         Dictionary<GridCell, GridCell> previous = new();
 
         while (todo.Count > 0)
@@ -120,7 +122,7 @@ public class PlayerController : MonoBehaviour
             foreach (var neighbor in grid.GetWalkableNeighborsForCell(current))
             {
                 int newNeighbourCosts = costs[current] + neighbor.Costs;
-                if (!costs.TryGetValue(neighbor, out int neighbourCosts) && neighbourCosts <= newNeighbourCosts) continue;
+                if (costs.TryGetValue(neighbor, out int neighbourCosts) && neighbourCosts <= newNeighbourCosts) continue;
                 
                 todo.Enqueue(neighbor, newNeighbourCosts);
                 previous[neighbor] = current;
