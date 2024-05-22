@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace Grids
@@ -16,6 +17,15 @@ namespace Grids
         }
 
         public bool Walkable => cellType != CellType.Wall;
+
+        public int Costs =>
+            cellType switch
+            {
+                CellType.Ground => 1,
+                CellType.Wall => int.MaxValue,
+                CellType.Water => 2,
+                _ => throw new ArgumentOutOfRangeException()
+            };
 
 
         private void OnValidate()
