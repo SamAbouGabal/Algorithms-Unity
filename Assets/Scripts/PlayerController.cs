@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using Collections;
 using Grids;
 using UnityEngine;
 using Grid = Grids.Grid;
@@ -22,7 +23,7 @@ public class PlayerController : MonoBehaviour
             Grid grid = FindObjectOfType<Grid>();
             GridCell start = grid.GetCellForPosition(transform.position);
             GridCell end = grid.GetCellForPosition(goal.transform.position);
-            var path = FindPathBreadthFirst(grid, start, end);
+            var path = FindPath_Dijkstra(grid, start, end);
             foreach (var node in path)
             {
                 node.spriteRenderer.color = Color.green;
@@ -96,6 +97,35 @@ public class PlayerController : MonoBehaviour
                 visited.Add(neighbor);
                 neighbor.spriteRenderer.color = Color.cyan;
                 if (neighbor == end) return TracePath(neighbor, previous).Reverse();
+            }
+        }
+
+        return null;
+    }
+    
+    
+    static IEnumerable<GridCell> FindPath_Dijkstra(Grid grid, GridCell start, GridCell end)
+    {
+        PriorityQueue<GridCell> todo = new();
+        todo.Enqueue(start, 0);
+        Dictionary<GridCell, int> costs = new();
+        costs[start] = 0;
+        Dictionary<GridCell, GridCell> previous = new();
+
+        while (todo.Count > 0)
+        {
+            var current = todo.Dequeue();
+            if (current == end) return TracePath(current, previous).Reverse();
+            
+            foreach (var neighbor in grid.GetWalkableNeighborsForCell(current))
+            {
+                int newNeighbourCosts = costs[current] + neighbor.Costs;
+                if (!costs.TryGetValue(neighbor, out int neighbourCosts) && neighbourCosts <= newNeighbourCosts) continue;
+                
+                todo.Enqueue(neighbor, newNeighbourCosts);
+                previous[neighbor] = current;
+                costs[neighbor] = newNeighbourCosts;
+                neighbor.spriteRenderer.color = Color.cyan;
             }
         }
 
