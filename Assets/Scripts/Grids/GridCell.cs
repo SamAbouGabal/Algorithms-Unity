@@ -14,6 +14,11 @@ namespace Grids
             spriteRenderer = GetComponent<SpriteRenderer>();
             spriteRenderer.color = walkable ? Color.white : Color.black;
         }
+        
+        public override string ToString()
+        {
+            return $"{nameof(GridCell)} ({Mathf.FloorToInt(transform.position.x)}|{Mathf.FloorToInt(transform.position.y)})";
+        }
 
         private void Start()
         {
