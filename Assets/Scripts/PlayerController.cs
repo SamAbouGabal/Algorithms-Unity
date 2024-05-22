@@ -8,9 +8,8 @@ using Grid = Grids.Grid;
 
 public class PlayerController : MonoBehaviour
 {
-    // Start is called before the first frame update
-
     public GameObject goal;
+    // Start is called before the first frame update
     void Start()
     {
         
@@ -39,12 +38,15 @@ public class PlayerController : MonoBehaviour
         {
             while (Vector2.Distance(transform.position, cell.transform.position) > 0.001f)
             {
-                transform.position = Vector2.MoveTowards(transform.position, cell.transform.position, Time.deltaTime);
+                Vector3 targetPosition = Vector2.MoveTowards(transform.position, cell.transform.position, Time.deltaTime);
+                targetPosition.z = transform.position.z;
+                transform.position = targetPosition;
                 yield return null;
             }
         }
     }
 
+    // Update is called once per frame
     static IEnumerable<GridCell> FindPath(Grid grid, GridCell start, GridCell end)
     {
         Stack<GridCell> path = new Stack<GridCell>();
@@ -52,31 +54,24 @@ public class PlayerController : MonoBehaviour
         path.Push(start);
         visited.Add(start);
 
-        while (path.Count<0)
+        while (path.Count > 0)
         {
             bool foundNextNode = false;
-            foreach (var neighbour in grid.GetWalkableNeighborsForCell(path.Peek()))
+            foreach (var neighbor in grid.GetWalkableNeighborsForCell(path.Peek()))
             {
-                if (visited.Contains(neighbour)) continue;
-                {
-                    path.Push(neighbour);
-                    visited.Add(neighbour);
-                    neighbour.spriteRenderer.color = Color.blue;
-                    if (neighbour == end)
-                    {
-                        return path.Reverse();
-                    }
-                    foundNextNode = true;
-                    break;
-                }
-            }
-            if (!foundNextNode)
-            {
-                path.Pop();
+                if (visited.Contains(neighbor)) continue;
+                path.Push(neighbor);
+                visited.Add(neighbor);
+                neighbor.spriteRenderer.color = Color.cyan;
+                if (neighbor == end) return path.Reverse(); // <<<<<<<<<<
+                foundNextNode = true;
+                break;
             }
 
-            
+            if (!foundNextNode)
+                path.Pop();
         }
+
         return null;
     }
 }
